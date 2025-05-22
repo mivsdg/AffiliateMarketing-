@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Best Amazon Deals - Handpicked Products with Affiliate Links">
+  <title>Amazon Deals Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Amazon Deals Hub</h1>
+      <nav>
+        <a href="#" class="text-blue-600 hover:underline mx-2">Home</a>
+        <a href="#" class="text-blue-600 hover:underline mx-2">Categories</a>
+        <a href="#" class="text-blue-600 hover:underline mx-2">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto mt-6 px-4">
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">Featured Products</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="https://via.placeholder.com/300x200" alt="Product Image" class="w-full h-48 object-cover rounded">
+          <h3 class="mt-2 text-lg font-bold">Awesome Gadget</h3>
+          <p class="text-sm text-gray-600">Top-rated tech gadget that improves productivity.</p>
+          <a href="https://www.amazon.com/dp/B000000000?tag=youraffiliatetag" target="_blank" class="inline-block mt-3 px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">Buy on Amazon</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="https://via.placeholder.com/300x200" alt="Product Image" class="w-full h-48 object-cover rounded">
+          <h3 class="mt-2 text-lg font-bold">Smart Kitchen Tool</h3>
+          <p class="text-sm text-gray-600">Must-have kitchen tool for every home chef.</p>
+          <a href="https://www.amazon.com/dp/B000000001?tag=youraffiliatetag" target="_blank" class="inline-block mt-3 px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">Buy on Amazon</a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="https://via.placeholder.com/300x200" alt="Product Image" class="w-full h-48 object-cover rounded">
+          <h3 class="mt-2 text-lg font-bold">Fitness Tracker</h3>
+          <p class="text-sm text-gray-600">Track your health goals effectively with this smart device.</p>
+          <a href="https://www.amazon.com/dp/B000000002?tag=youraffiliatetag" target="_blank" class="inline-block mt-3 px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">Buy on Amazon</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white shadow p-4 mt-10 text-center">
+    <p class="text-sm text-gray-600">&copy; 2025 Amazon Deals Hub. All rights reserved. This site contains affiliate links.</p>
+  </footer>
+</body>
+
+</html>
